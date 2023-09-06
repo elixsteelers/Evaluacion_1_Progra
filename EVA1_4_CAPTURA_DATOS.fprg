@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-05 08:33:29 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzIxOzIwMjMtMDktMDU7MDc6NTc6MTIgcC4gbS47Mjg0MA=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzIxOzIwMjMtMDktMDU7MDg6MzM6MjkgcC4gbS47MTsyOTUx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="apellidos" type="String" array="False" size=""/>
+            <declare name="nom" type="String" array="False" size=""/>
+            <declare name="dom" type="String" array="False" size=""/>
+            <declare name="sermed" type="Boolean" array="False" size=""/>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <declare name="prom" type="Real" array="False" size=""/>
+            <output expression="&quot;Introduzca apellidos&quot;" newline="True"/>
+            <input variable="apellidos"/>
+            <output expression="&quot;Introduzca su nombre&quot;" newline="True"/>
+            <input variable="nom"/>
+            <output expression="&quot;Introduzca su domicilio&quot;" newline="True"/>
+            <input variable="dom"/>
+            <output expression="&quot;Cuenta con servicio medico?&quot;" newline="True"/>
+            <input variable="sermed"/>
+            <output expression="&quot;Introduzca su edad&quot;" newline="True"/>
+            <input variable="edad"/>
+            <output expression="&quot;Introduzca su promedio academico&quot;" newline="True"/>
+            <input variable="prom"/>
+            <output expression="apellidos" newline="True"/>
+            <output expression="nom" newline="True"/>
+            <output expression="dom" newline="True"/>
+            <output expression="sermed" newline="True"/>
+            <output expression="edad" newline="True"/>
+            <output expression="prom" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
